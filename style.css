@@ -1,0 +1,228 @@
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px; 
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 1.5em;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.signup-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.signup-btn:hover {
+    background-color: #45a049;
+}
+
+/* Shared Card Styles */
+.card {
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Home Page Styles */
+.hero-header {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.hero-section {
+    /* background-image: url(i1.jpg); */
+    background: rgb(180,58,159);
+    background: linear-gradient(90deg, rgba(180,58,159,1) 0%, rgba(253,29,29,1) 40%, rgba(252,176,69,1) 100%);
+    background-size: contain;
+    padding: 50px 50px;
+    text-align: center;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: #45a049;
+}
+.services-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.service-card {
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: rgb(238,174,174);
+    background: radial-gradient(circle, rgba(238,174,174,1) 55%, rgba(190,180,217,1) 88%, rgba(148,187,233,1) 100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+
+/* About Page Styles */
+.about-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-section img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Pricing Page Styles */
+.pricing-section {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.pricing-card {
+    text-align: center;
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: rgb(238,174,174);
+    background: radial-gradient(circle, rgba(238,174,174,1) 55%, rgba(190,180,217,1) 88%, rgba(148,187,233,1) 100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-card a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.pricing-card a:hover {
+    background-color: #45a049;
+}
+
+/* Team Page Styles */
+/* .team{
+    background: rgb(192, 62, 62);
+} */
+.team-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1250px;
+    margin: 50px auto;
+}
+
+.team-member-card {
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(52,192,181,1) 16%, rgba(255,179,15,1) 86%);
+    /* background: rgb(223,176,207);
+    background: radial-gradient(circle, rgba(223,176,207,1) 27%, rgba(238,174,202,1) 55%, rgba(190,180,217,1) 88%, rgba(148,187,233,1) 100%); */
+}
+
+.team-member-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.team-member-card a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.team-member-card a:hover {
+    background-color: #45a049;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
